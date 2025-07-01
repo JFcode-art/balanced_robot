@@ -1,0 +1,34 @@
+# Build outputs
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.list
+*.map
+build/
+Debug/
+Release/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Qt
+*.pro.user
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile
+Makefile.*
+.hg/
+
+# STM32CubeMX
+*.ioc.bak
+
+# OS
+.DS_Store
+Thumbs.db
